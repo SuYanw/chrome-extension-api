@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "API Consumer Extension",
+  "version": "1.0",
+  "description": "Uma extensão do Chrome que consome uma API e exibe os resultados",
+  "permissions": [
+    "activeTab",
+    "https://jsonplaceholder.typicode.com/*"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
+  }
+}
